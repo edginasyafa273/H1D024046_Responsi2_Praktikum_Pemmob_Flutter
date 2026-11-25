@@ -1,6 +1,8 @@
 # Weather App — Responsi 2 Praktikum Pemrograman Mobile (Flutter)
  Nama : Edgina Syafa Ayu Wicaksono
+ 
  Shift KRS : D
+ 
  Link YouTube : https://youtu.be/3zhyMLuK4Z8
 
  
