@@ -114,20 +114,20 @@ class _DetailTile extends StatelessWidget {
     final isDark = theme.brightness == Brightness.dark;
 
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 14),
+      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 13),
       decoration: AppTheme.cardDecoration(context, radius: 22),
       child: Row(
         children: [
           Container(
-            width: 40,
-            height: 40,
+            width: 36,
+            height: 36,
             decoration: BoxDecoration(
               color: isDark
                   ? item.iconColor.withValues(alpha: 0.18)
                   : item.badgeBg,
               shape: BoxShape.circle,
             ),
-            child: Icon(item.icon, color: item.iconColor, size: 20),
+            child: Icon(item.icon, color: item.iconColor, size: 18),
           ),
           const SizedBox(width: 10),
           Expanded(
@@ -136,11 +136,11 @@ class _DetailTile extends StatelessWidget {
               children: [
                 Text(
                   item.label,
-                  style: theme.textTheme.labelMedium,
-                  maxLines: 1,
+                  style: theme.textTheme.labelMedium?.copyWith(height: 1.2),
+                  maxLines: 2,
                   overflow: TextOverflow.ellipsis,
                 ),
-                const SizedBox(height: 2),
+                const SizedBox(height: 3),
                 Text(
                   item.value,
                   style: theme.textTheme.titleMedium,
