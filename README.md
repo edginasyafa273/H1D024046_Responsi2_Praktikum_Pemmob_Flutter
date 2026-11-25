@@ -1,5 +1,9 @@
 # Weather App — Responsi 2 Praktikum Pemrograman Mobile (Flutter)
+ Nama : Edgina Syafa Ayu Wicaksono
+ Shift KRS : D
+ Link YouTube : https://youtu.be/3zhyMLuK4Z8
 
+ 
 Aplikasi informasi cuaca berbasis **Flutter (Dart)** yang mengambil data cuaca real-time dan perkiraan 7 hari ke depan dari **Open-Meteo REST API**, dibangun menggunakan arsitektur **Model-View-ViewModel (MVVM)**, state management **Provider**, Material Design 3, serta penyimpanan lokal **SharedPreferences**.
 
 ---
